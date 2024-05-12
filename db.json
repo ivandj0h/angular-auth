@@ -2,38 +2,35 @@
   "user": [
     {
       "id": "admin",
-      "name": "NT Infotech",
-      "password": "Test$1234",
+      "name": "Administrator",
+      "password": "admin",
       "email": "test@gmail.com",
       "gender": "male",
       "role": "admin",
       "isactive": true,
-      "address":{
-        "area":"chennai"
+      "address": {
+        "area": "chennai"
       }
     },
     {
-      "id": "testuser",
-      "name": "Test User",
-      "password": "Test@1234",
-      "email": "test@in.com",
+      "id": "jane",
+      "name": "Jane Doe",
+      "password": "jane",
+      "email": "jane@jane.com",
       "gender": "male",
       "role": "user",
-      "isactive": true,
-      "address":{
-        "area":"chennai"
-      }
+      "isactive": true
     },
     {
-      "id": "Jhon1",
-      "name": "NT Infotech",
-      "password": "Test@1233",
-      "email": "te@in.com",
+      "id": "john",
+      "name": "John Doe",
+      "password": "john",
+      "email": "john@john.com",
       "gender": "male",
       "role": "tech",
       "isactive": true,
-      "address":{
-        "area":"chennai"
+      "address": {
+        "area": "Jakarta"
       }
     },
     {
@@ -44,8 +41,8 @@
       "gender": "male",
       "role": "tech",
       "isactive": true,
-      "address":{
-        "area":"banglore"
+      "address": {
+        "area": "Bali"
       }
     }
   ],
@@ -73,59 +70,37 @@
     {
       "role": "admin",
       "menu": "user",
-      "haveedit":true,
-      "haveadd":true,
-      "havedelete":true
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true
     },
     {
       "role": "admin",
       "menu": "customer",
-      "haveedit":true,
-      "haveadd":true,
-      "havedelete":true
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true
     },
     {
       "role": "user",
       "menu": "user",
-      "haveedit":false,
-      "haveadd":false,
-      "havedelete":false
+      "haveedit": false,
+      "haveadd": false,
+      "havedelete": false
     },
     {
       "role": "user",
       "menu": "customer",
-      "haveedit":true,
-      "haveadd":true,
-      "havedelete":false
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": false
     }
-    
-    
   ],
-  "customer":[
+  "customer": [
     {
-      "id":1,
-      "name":"rakhesh",
-      "Creditlimit":1000
-    },
-    {
-      "id":2,
-      "name":"rahul",
-      "Creditlimit":1000
-    },
-    {
-      "id":3,
-      "name":"ramesh",
-      "Creditlimit":1000
-    },
-    {
-      "id":4,
-      "name":"rahim",
-      "Creditlimit":1000
-    },
-    {
-      "id":5,
-      "name":"robert",
-      "Creditlimit":1000
+      "id": 1,
+      "name": "Elon Musk",
+      "Creditlimit": 1000
     }
   ]
 }
